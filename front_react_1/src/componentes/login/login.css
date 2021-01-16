@@ -1,0 +1,163 @@
+#table_login {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width:100%;
+    height:100%;    
+}
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: tahoma,arial,helvetica,sans-serif;
+}
+
+.LogoLogin {
+    color: #FFF;    
+    z-index: 100;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #333;
+    font-family: Verdana,sans-serif,Tahoma;    
+}
+
+.LogoLogin > img {
+    width: 300px;
+    margin-top: 15px;
+    /*padding-top: 15px;*/
+}
+
+.DivLogin {
+    width: 310px;
+    position: relative;   
+}
+
+.ContentField {
+    width: 100%;
+    display: table;
+    padding: 5px;
+    margin-left: 3px;
+}
+
+.ContentField > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.DivBoton {
+    position: absolute;
+    top: 45%;
+    left: 280px;
+    width: 67px;
+    height: 67px;
+    padding: 11px;
+    background: #CCC;
+    border-radius: 50%;
+    margin-top: -22px;
+    -webkit-box-shadow: inset 0 1px 4px #FFF, 1px 1px 3px #333;
+    box-shadow: inset 0 1px 4px #FFF, 1px 1px 3px #333;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: table;
+    font-family: Verdana,sans-serif,Tahoma;
+}
+
+body {
+    display: table;
+    background: url(./../../images/background.jpg?v1.0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+}
+
+#table_login > div {
+    margin: 0 auto;
+    display: table;
+    background-color: #CCC;
+    border-radius: 5px;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: table;
+    font-family: Verdana,sans-serif,Tahoma;
+}
+
+#root #table_login{
+    width: 100%;
+    height: 100%;
+    margin: 0px;    
+    font-family: Verdana,sans-serif,Tahoma;
+    margin-top: calc(50% - 136px);
+}
+
+#table_login .inputLogin {    
+    color: #848484;
+    padding: 0 10px 0 10px;
+    width: 260px;
+    height: 40px;
+    background: #DDD;
+    font-size: 14px;
+    border: 0;
+    border-radius: 0px 5px 5px 0;
+    -webkit-box-shadow: inset 0 1px 4px #333, 0 1px #999;
+    box-shadow: inset 0 1px 4px #999, 0 1px #999;
+}
+
+.DivBoton > input {    
+    position: relative;
+    /*z-index: 2;*/
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    background: #09C url(./../../images/flecha_login.png);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+    background-size: 32px 32px;
+    text-indent: 120%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    border-radius: 24px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 1px 1px 2px #FFF, 1px 1px 2px #333;
+    box-shadow: inset 1px 1px 2px #FFF, 1px 1px 2px #333;
+}
+
+.mytext {
+    color: #333;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #FFF;
+    font-family: Verdana,sans-serif,Tahoma;
+}
+
+.FieldImage {
+    position: relative;    
+    width: 35px;
+    height: 40px;
+    padding: 5px 5px 0 5px;
+    background: #DDD;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    -webkit-box-shadow: inset 0 1 4px #333, 0 1px #999;
+    box-shadow: inset 0 1px 4px #999, 0 1px #999;
+}
+
+.FieldImage > img {
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;  
+}
+
+.FieldDiv {    
+    top: 0;
+    left: 40px;
+    width: 250px;
+    height: 40px;
+}
